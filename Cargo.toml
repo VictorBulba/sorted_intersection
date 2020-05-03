@@ -6,6 +6,7 @@ edition = "2018"
 license = "MIT"
 repository = "https://github.com/VictorBulba/sorted_intersection"
 description = "Intersection Iterator Over Sorted Iterators"
+readme = "README.md"
 keywords = ["intersection", "iterator"]
 
 
