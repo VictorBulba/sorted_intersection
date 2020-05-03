@@ -14,10 +14,10 @@
 /// ```
 /// use sorted_intersection::SortedIntersection;
 /// 
-/// let number1 = vec![3, 6, 9, 18, 19, 21, 23, 27];
-/// let number2 = vec![6, 7, 8, 9, 18];
-/// let number3 = vec![5, 6, 9, 18, 25, 27];
-/// let mut iters = [number1.iter(), number2.iter(), number3.iter()];
+/// let numbers1 = vec![3, 6, 9, 18, 19, 21, 23, 27];
+/// let numbers2 = vec![6, 7, 8, 9, 18];
+/// let numbers3 = vec![5, 6, 9, 18, 25, 27];
+/// let mut iters = [numbers1.iter(), numbers2.iter(), numbers3.iter()];
 ///
 /// let mut intersection_iter = SortedIntersection::new(&mut iters);
 ///
