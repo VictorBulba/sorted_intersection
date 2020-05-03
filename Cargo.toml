@@ -1,6 +1,6 @@
 [package]
 name = "sorted_intersection"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["VictorBulba"]
 edition = "2018"
 license = "MIT"
