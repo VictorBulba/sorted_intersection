@@ -45,7 +45,7 @@ impl<O: Ord, I: Iterator<Item = O>> Iterator for SortedIntersection<'_, O, I> {
     type Item = O;
     #[inline]
     fn next(&mut self) -> Option<Self::Item> {
-        let mut max = self.iters[0].next()?;
+        let mut max = self.iters.first_mut()?.next()?;
         let mut max_index = 0;
         let mut index = 1;
         while index != max_index {
